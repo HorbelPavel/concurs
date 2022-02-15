@@ -1,0 +1,191 @@
+html {
+    font-family: Comic Sans MS;
+    background-color: rgb(226, 244, 247);
+}
+
+.header {
+    position: fixed;
+    /* Фиксированное положение */
+    left: 0px;
+    /* Расстояние от правого края окна браузера */
+    top: 0px;
+    /* Расстояние сверху */
+    padding: 0px;
+    /* Поля вокруг текста */
+    background-color: rgb(199, 230, 236);
+    box-shadow: 0 0 57px 20px rgb(205, 221, 224);
+}
+
+.title {
+    position: fixed;
+    /* Фиксированное положение */
+    right: 20%;
+    /* Расстояние от правого края окна браузера */
+    top: -2%;
+    /* Расстояние сверху */
+    padding: 0px;
+    /* Поля вокруг текста */
+    font-size: 40px;
+    font-size: 3vw;
+}
+
+.sidenav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    height: 100%;
+    background-color: #f1f1f1;
+    position: fixed;
+    /* Фиксированное положение */
+    left: 0px;
+    /* Расстояние от правого края окна браузера */
+    top: 0px;
+    /* Расстояние сверху */
+    padding: 0px;
+    /* Поля вокруг текста */
+    background: rgb(255, 255, 255);
+    /* Цвет фона */
+    border: 1px solid #333;
+    /* Параметры рамки */
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+#link {
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+#link:hover {
+    background-color: skyblue;
+    color: white;
+}
+
+#link:active {
+    background-color: aqua;
+}
+
+.enum {
+    font-size: 18px;
+}
+
+.mainIndex {
+    position: block;
+    padding-left: 160px;
+    padding-top: 100px;
+}
+
+.text {
+    font-size: 18px;
+}
+
+.h2 {
+    font-size: 25px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.text-center {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f5f5f5;
+}
+
+table {
+    /* font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif; */
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    border-radius: 10px;
+    border-spacing: 0;
+    text-align: center;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+th {
+    background: #BCEBDD;
+    color: white;
+    text-shadow: 0 1px 1px #2D2020;
+    padding: 10px 20px;
+}
+
+th,
+td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+}
+
+th:first-child,
+td:first-child {
+    text-align: left;
+}
+
+th:first-child {
+    border-top-left-radius: 10px;
+}
+
+th:last-child {
+    border-top-right-radius: 10px;
+    border-right: none;
+}
+
+td {
+    padding: 10px 20px;
+    background: rgb(208, 219, 190);
+}
+
+tr:last-child td:first-child {
+    border-radius: 0 0 0 10px;
+}
+
+tr:last-child td:last-child {
+    border-radius: 0 0 10px 0;
+}
+
+tr td:last-child {
+    border-right: none;
+}
+
+blockquote {
+    margin: 0;
+    background: skyblue;
+    color: black;
+    padding: 30px;
+    border-radius: 30px;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+iframe {
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    position: block;
+    padding-left: 170px;
+    padding-left: 10px;
+}
+
+th {
+    color: black;
+}

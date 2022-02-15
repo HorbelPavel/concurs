@@ -1,0 +1,137 @@
+<html>
+    <head>
+        <title>Тест</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="data/css/bootstrap.min.css">
+        <script src="data/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="data/dataReciprocal.js"></script>
+        <style>
+            body {
+                display: -ms-flexbox;
+                display: -webkit-box;
+                display: flex;
+                -ms-flex-align: center;
+                -ms-flex-pack: center;
+                -webkit-box-align: center;
+                align-items: center;
+                -webkit-box-pack: center;
+                justify-content: center;
+                padding-top: 40px;
+                padding-bottom: 40px;
+                background-color: #f5f5f5;
+            }
+            p, span, input, td {
+                font-size:24px;
+            }
+            button{
+                font-size:18px;
+            }
+            #ot {
+                color:blue;
+
+        </style>
+    </head>
+    <body class="text-center">
+        <div style="text-align:center;">
+            <p id="name_test" style="font-weight:bold;position:absolute; top:20px;  left: auto; right:auto; ">Test. Topic - "<span id="tema"></span>".</p>
+            <div class="card">
+                <div class="card-body">
+                    <div id="vopros1" style="display:block;">
+                        <p>Question 1</p>
+                        <div class="alert alert-secondary" role="alert">
+                            <p><span id="v_1"></span> <input class="form-control" type="text" id="z_1"></p>
+                        </div>
+                    </div>
+                    <div id="vopros2" style="display:none;">
+                        <p>Question 2</p>
+                        <div class="alert alert-secondary" role="alert">
+                            <p><span id="v_2"></span> <input class="form-control" type="text" id="z_2"></p>
+                        </div>
+                    </div>
+                    <div id="vopros3" style="display:none;">
+                        <p>Question 3</p>
+                        <div class="alert alert-secondary" role="alert">
+                            <p><span id="v_3"></span> <input class="form-control" type="text" id="z_3"></p>
+                        </div>
+                    </div>
+                    <div id="vopros4" style="display:none;">
+                        <p>Question 4</p>
+                        <div class="alert alert-secondary" role="alert">
+                            <p><span id="v_4"></span> <input class="form-control" type="text" id="z_4"></p>
+                        </div>
+                    </div>
+                    <div id="vopros5" style="display:none;">
+                        <p>Question 5</p>
+                        <div class="alert alert-secondary" role="alert">
+                            <p><span id="v_5"></span> <input class="form-control" type="text" id="z_5"></p>
+                        </div>
+                    </div>
+                    <div id="vopros6" style="display:none;">
+                        <p>Question 6</p>
+                        <div class="alert alert-secondary" role="alert">
+                            <p><span id="v_6"></span> <input class="form-control" type="text" id="z_6"></p>
+                        </div>
+                    </div>
+                    <div id="vopros7" style="display:none;">
+                        <p>Question 7</p>
+                        <div class="alert alert-secondary" role="alert">
+                            <p><span id="v_7"></span> <input class="form-control" type="text" id="z_7"></p>
+                        </div>
+                    </div>
+                    <div id="vopros8" style="display:none;">
+                        <p>Question 8</p>
+                        <div class="alert alert-secondary" role="alert">
+                            <p><span id="v_8"></span> <input class="form-control" type="text" id="z_8"></p>
+                        </div>
+                    </div>
+                    <div id="vopros9" style="display:none;">
+                        <p>Question 9</p>
+                        <div class="alert alert-secondary" role="alert">
+                            <p><span id="v_9"></span> <input class="form-control" type="text" id="z_9"></p>
+                        </div>
+                    </div>
+                    <div id="vopros10" style="display:none;">
+                        <p>Question 10</p>
+                        <div class="alert alert-secondary" role="alert">
+                            <p><span id="v_10"></span> <input class="form-control" type="text" id="z_10"></p>
+                        </div>
+                    </div>
+                    <div id="vopros11" style="display:none;">
+                        <p>Question 11</p>
+                        <div class="alert alert-secondary" role="alert">
+                            <p><span id="v_11"></span> <input class="form-control" type="text" id="z_11"></p>
+                        </div>
+                    </div>
+                    <div id="vopros12" style="display:none;">
+                        <p>Question 12</p>
+                        <div class="alert alert-secondary" role="alert">
+                            <p><span id="v_12"></span> <input class="form-control" type="text" id="z_12"></p>
+                        </div>
+                    </div>
+                    <div id="vopros13" style="display:none;">
+                        <p>Question 13</p>
+                        <div class="alert alert-secondary" role="alert">
+                            <p><span id="v_13"></span> <input class="form-control" type="text" id="z_13"></p>
+                        </div>
+                    </div>
+                    <div id="vopros14" style="display:none;">
+                        <p>Question 14</p>
+                        <div class="alert alert-secondary" role="alert">
+                            <p><span id="v_14"></span> <input class="form-control" type="text" id="z_14"></p>
+                        </div>
+                    </div>
+                    <div id="vopros15" style="display:none;">
+                        <p>Question 15</p>
+                        <div class="alert alert-secondary" role="alert">
+                            <p><span id="v_15"></span> <input class="form-control" type="text" id="z_15"></p>
+                        </div>
+                    </div>
+                    <button id="kn_sl" class="btn btn-lg btn-primary btn-block" style="margin-left:auto;margin-right:auto;width:250px;" onclick="sled_vopr();">Next question</button>
+                    <button id="kn_pr" class="btn btn-lg btn-primary btn-block" style="margin-left:auto;margin-right:auto;display:none;width:250px;" onclick="proverit();">Check</button>
+                    <div id="rezultat"></div>
+                </div>
+            </div>
+        </div>
+        <script src="../code/scriptReciprocal.js"></script>
+    </body>
+</html>
